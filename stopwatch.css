@@ -1,0 +1,42 @@
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(97, 114, 108);
+    color: white;
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+  }
+  
+  .stopwatch-display {
+    font-size: 8em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 4em;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+
+  }
+
+  button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9)
+}
+
+.heading{
+  font-weight: 800;
+  font-size: 42px;
+  color:black;
+  background-color: grey;
+}
+  
